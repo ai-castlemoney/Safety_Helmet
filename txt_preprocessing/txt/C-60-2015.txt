@@ -1,0 +1,7 @@
+4. N.S.T.D 공법(Non Supporting Formwork System for Top-Down Construction)
+- 무지보 역타설 공법(N.S.T.D)은 별도로 지보공을 설치하지 않고 토류벽의 엄지말뚝(H-Pile)과 건축구조물의 철골기둥에 기 제작된 철골틀(강재거푸집)을 기둥에 설치하여 철골틀을 상하로 이동하여 콘크리트를 타설하는 공법 5. C.W.S 공법(Buried Wale Continuous Wall System)
+- 매립형 띠장공법(C.W.S)은 매립형 철골띠장과 슬래브 강막작용(Rigid Diaphragm Action)을 이용한 역타공법
+6. B.R.D 공법(Bracket Supported R.C Downward)
+- B.R.D 공법은 브라켓 및 보 거푸집 지지틀을 설치하여 동바리 없이 무지보 시공이 가능한 공법으로 거푸집 지지틀을 현수하강 함으로써 시공하는 공법 7. E.S.D 공법(Economic Steel Downward)
+- E.S.D 공법은 흙막이 주위에 설치되는 R.C 테두리보를 개선 보완하여 테 두리보를 삭제하고 센터 파일과 철골 거더를 이용하는 철골조 역타공법 8. N.R.D 공법(New R.C Downward)
+- N.R.D 공법은 2방향 와이드 거더와 트러스 데크를 이용하여 거푸집 및 동 바리를 최소화한 공법으로 굴착작업 시 거푸집을 매달거나 하강시키면서 역타하는 공법
