@@ -2,9 +2,13 @@
 ## Team : Safety_Helmet(요주의 안전모)
 ### Team Members
 > 허남철 - 팀장, 리딩 및 전반적인 사항 파악, 지원, 교통정리 등
+>
 > 김민주 - 학습 단어장, 모델 구축/학습 등
+>
 > 송아람 - 웹크롤링, 데이터 수집, 정제 등
+>
 > 정진현 - Front/Backend Webservice 등
+>
 > 박성돈 - Git/Github 사용/관리, MLops 등
 
 - 차근차근 채워나갈 계획입니다.
