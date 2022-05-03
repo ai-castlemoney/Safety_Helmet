@@ -1,0 +1,6 @@
+<그림 1> 트럭 크레인(Truck Crane)
+하부 주행체의 주행부에 타이어를 사용한 자주식 크레인이며, 하부 주행체 및 상부 선회체에 각각 운전석을 가지고 있다. 트럭 크레인은 <그림 1>과 같다.
+<그림 2> 크롤러 크레인(Crawler Crane)
+<그림 3> 트럭 탑재형(Cago crane)
+<그림 4> 험지형 크레인(R/T Crane: Rough Terrain Crane)
+<그림 5> 전지형 크레인(A/T Crane: ALL Terrain Crane)
