@@ -17,4 +17,4 @@
 |일자|내용|링크|
 |:---:|:---:|:---:|
 |22.05.03|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220503.md)
-|22.05.04|멘토링 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220504.md)
+|22.05.04|멘토링 및 논의 사항들|[📝](https://www.notion.so/modulabs/22-05-04-6a9cefa6450a4d88bf32fd38e17ecb91)
