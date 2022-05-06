@@ -39,3 +39,8 @@
     8. 위 전반적인 사항들 정리 및 점검 - 남철님
     9. 데이터 베이스 구축 - 아람님
 
+#### Aiffelthon Daily log (22.05.03 ~ 22. 06. 09)
+|일자|내용|링크|
+|:---:|:---:|:---:|
+|22.05.03|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220503.md)
+|22.05.04|멘토링|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220504.md)
