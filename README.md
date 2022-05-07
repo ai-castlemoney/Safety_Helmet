@@ -16,6 +16,6 @@
 #### Aiffelthon Daily log(22.05.03 ~ 22.06.09)
 |일자|내용|링크1(Markdown)|링크2(Notion)|
 |:---:|:---:|:---:|:---:|
-|22.05.03|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220503.md)
-|22.05.04|멘토링 및 논의 사항들||[🗂](https://www.notion.so/modulabs/22-05-04-6a9cefa6450a4d88bf32fd38e17ecb91)
-|22.05.06|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220506.md)
+|22.05.03|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220503.md)||
+|22.05.04|멘토링 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220504.md)|[🗂](https://modulabs.notion.site/22-05-04-6a9cefa6450a4d88bf32fd38e17ecb91)|
+|22.05.06|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220506.md)|[🗂](https://modulabs.notion.site/22-05-06-cc34aa84ffed46919503a4301f40b032)|
