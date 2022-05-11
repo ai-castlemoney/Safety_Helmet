@@ -223,7 +223,13 @@ def txt_to_df(doc_code, txt, df, cols):
                     pass
             # col_type 이 그림 표 부록 등 이전행에 추가될 자료, 이전 행에 추가 후 다음 반복으로(continue)
             ## 바로 내용이 나오는 content 도 마찬가지.
-            elif col_type in ["content","image","table","appendix","math_exp","attachment","reference","enclosure_image","enclosure","asterisk",'appendix_table']:
+            elif col_type =="content":
+                if df.iloc[-1][col_type] != None : # 기존에 항목이 있으면 ", data"를 추가
+                    df.iloc[-1][col_type] = df.iloc[-1][col_type] + ", " + line
+                else:
+                    df.iloc[-1][col_type] = line
+                continue
+            elif col_type in ["image","table","appendix","math_exp","attachment","reference","enclosure_image","enclosure","asterisk",'appendix_table']:
                 # df 마지막 행의 [col_type] = data
                 #print(df.iloc[-1][col_type])
                 #print('여기?')
