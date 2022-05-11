@@ -30,6 +30,7 @@ def load_txt(txt_path):
 # 경로의 파일 모두 읽기
 def load_txts(read_dir):
     dir_list = os.listdir(read_dir) # 읽기 경로의 파일들
+    print(dir_list)
     txts = {}
     for txt_name in dir_list:
         print(txt_name)
@@ -45,12 +46,15 @@ def get_col_type(line_head, cols):
     t1 = re.compile('\d+[.]') # title 1 : 1.
     t2 = re.compile('\d+[.]\d+') # title 2 : 1.1
     t3 = re.compile('\d+[.]\d+[.]\d+') # title 3 : 1.1.1
+    t4 = re.compile('\d+[.]\d+[.]\d+[.]\d+') # title 4 : 1.1.1.1
     c1 = re.compile('[(]\d+[)]') # content 1 : (1)~
     c2 = re.compile('[(][가-힣][)]') # content 2 : (가)~(힣)
     c3 = re.compile('[①-⑳]') # content 3 : ①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳
     c4 = re.compile('[㉮-㉻]') # content 4  : ㉮㉯㉰㉱㉲㉳㉴㉵㉶㉷㉸㉹㉺㉻
 
-    if t3.match(line_head):
+    if t4.match(line_head):
+        col_type = 't4'
+    elif t3.match(line_head):
         col_type = "t3"
     elif t2.match(line_head):
         col_type = "t2"
@@ -102,7 +106,7 @@ def get_col_type(line_head, cols):
 
 # 각 문서 txt를 df에 추가
 def txt_to_df(doc_code, txt, df, cols):
-    # t1~3, c1~4 정규표현식
+    # t1~4, c1~4 정규표현식
     new_row = { col_name : None for col_name in cols} # 추가할 행 초기화
     new_row["doc_code"] = doc_code # 문서코드 행에 추가
 
@@ -112,18 +116,19 @@ def txt_to_df(doc_code, txt, df, cols):
         
         line_splitted = line.split()
         if line:
-            print(doc_code,line)
+            #print(doc_code,line)
             line_head = line_splitted[0] # 글머리
             data = " ".join(line_splitted[1:]) # 내용
 
             # 글머리로 부터 col_type 얻기
             col_type = get_col_type(line_head, cols)
-            print(line_head, col_type)
+            #print(line_head, col_type)
             # col_type 이 t#, c# 이외인 경우
             if col_type == "t1": # t1 의 경우
                 new_row["t1"] = line_head
                 new_row["t2"] = None
                 new_row["t3"] = None
+                new_row["t4"] = None
                 new_row["c1"] = None
                 new_row["c2"] = None
                 new_row["c3"] = None
@@ -132,6 +137,7 @@ def txt_to_df(doc_code, txt, df, cols):
             elif col_type == "t2": # t2 의 경우
                 new_row["t2"] = line_head
                 new_row["t3"] = None
+                new_row["t4"] = None
                 new_row["c1"] = None
                 new_row["c2"] = None
                 new_row["c3"] = None
@@ -139,6 +145,14 @@ def txt_to_df(doc_code, txt, df, cols):
                 new_row["title"] = data
             elif col_type == "t3":
                 new_row["t3"] = line_head
+                new_row["t4"] = None
+                new_row["c1"] = None
+                new_row["c2"] = None
+                new_row["c3"] = None
+                new_row["c4"] = None
+                new_row["title"] = data
+            elif col_type == "t4":
+                new_row["t4"] = line_head
                 new_row["c1"] = None
                 new_row["c2"] = None
                 new_row["c3"] = None
@@ -166,6 +180,7 @@ def txt_to_df(doc_code, txt, df, cols):
                 if pre_col_type == "t1":
                     new_row["t2"] = line_head
                     new_row["t3"] = None
+                    new_row["t4"] = None
                     new_row["c1"] = None
                     new_row["c2"] = None
                     new_row["c3"] = None
@@ -173,12 +188,20 @@ def txt_to_df(doc_code, txt, df, cols):
                     new_row["title"] = data
                 elif pre_col_type == "t2":
                     new_row["t3"] = line_head
+                    new_row["t4"] = None
                     new_row["c1"] = None
                     new_row["c2"] = None
                     new_row["c3"] = None
                     new_row["c4"] = None
                     new_row["title"] = data
                 elif pre_col_type == "t3":
+                    new_row["t4"] = line_head
+                    new_row["c1"] = None
+                    new_row["c2"] = None
+                    new_row["c3"] = None
+                    new_row["c4"] = None
+                    new_row["content"] = data
+                elif pre_col_type == "t4":
                     new_row["c1"] = line_head
                     new_row["c2"] = None
                     new_row["c3"] = None
@@ -202,8 +225,8 @@ def txt_to_df(doc_code, txt, df, cols):
             ## 바로 내용이 나오는 content 도 마찬가지.
             elif col_type in ["content","image","table","appendix","math_exp","attachment","reference","enclosure_image","enclosure","asterisk",'appendix_table']:
                 # df 마지막 행의 [col_type] = data
-                print(df.iloc[-1][col_type])
-                print('여기?')
+                #print(df.iloc[-1][col_type])
+                #print('여기?')
                 if df.iloc[-1][col_type] != None : # 기존에 항목이 있으면 ", data"를 추가
                     df.iloc[-1][col_type] = df.iloc[-1][col_type] + ", " + data
                 else:
@@ -241,6 +264,7 @@ cols = [
     "t1",
     "t2",
     "t3",
+    "t4",
     "c1",
     "c2",
     "c3",
@@ -258,13 +282,13 @@ cols = [
     "asterisk",
     'appendix_table']
 
-#Create a DataFrame object
-df = pd.DataFrame(columns = cols)
-new_row = { col_name : None for col_name in cols} # 추가할 행 초기화
-#df = df.append(new_row, ignore_index=True)
-new_df = pd.DataFrame([new_row])
-df = pd.concat([df,new_df])
-print("concat done")
+# #Create a DataFrame object
+# df = pd.DataFrame(columns = cols)
+# new_row = { col_name : None for col_name in cols} # 추가할 행 초기화
+# #df = df.append(new_row, ignore_index=True)
+# new_df = pd.DataFrame([new_row])
+# df = pd.concat([df,new_df])
+# print("concat done")
 
 # 하나만 할 경우
 txt_path = "txt_preprocessing_r2/C-01-2011.txt"
@@ -276,10 +300,12 @@ txts = load_txts(read_dir)
 
 # 확인
 print(txts)
-
 # 저장경로
 save_dir = '/Users/namcheolher/aiffel/Safety_Helmet/code_txt_to_df/txt_to_df'
 for doc_code, txt in txts.items(): # 각 문서에 대하여
+    #df 초기화
+    df = pd.DataFrame(columns = cols)
+    print(doc_code," 이 문서를 txt to df작업중")
     # df  변환
     df = txt_to_df(doc_code, txt, df, cols)
 
