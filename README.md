@@ -13,7 +13,7 @@
 
 - 차근차근 채워나가고 있습니다. 자세한 내용은 아래 log를 확인바랍니다.
 
-#### Aiffelthon Daily log(22.05.03 ~ 22.06.09)
+#### Aiffelthon Daily Log(22.05.03 ~ 22.06.09)
 |일자|내용|링크1(Markdown)|링크2(Notion)|
 |:---:|:---:|:---:|:---:|
 |22.05.03|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220503.md)||
@@ -22,9 +22,10 @@
 |22.05.09|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220509.md)|[🗂](https://modulabs.notion.site/22-05-09-926beb48b90e47dca7391144b41ea6e7)|
 |22.05.10|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220510.md)||
 |22.05.11|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220511.md)||
+|22.05.12|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220512.md)||
+|22.05.13|멘토링 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220513.md)||
 
-
-#### Aiffelthon Troubleshooting log
+#### Aiffelthon Troubleshooting Log
 |일자|Trouble|Solution|링크(Markdown)|
 |:---:|:---:|:---:|:---:|
 |22.05.10|Github Push Misstake(on going)|[😱](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/troubleshooting/220510.md)|[🗂]()|
