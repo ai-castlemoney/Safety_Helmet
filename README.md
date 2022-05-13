@@ -1,15 +1,15 @@
 # Aiffelthon
 ## Team : Safety_Helmet(요주의 안전모)
 ### Team Members
-> 허남철 - 팀장, 리딩 및 전반적인 사항 파악, 지원, 교통정리 등
+> 허남철 - 팀장, Python Coding, 라벨링 알고리즘 개발, 데이터 전처리, 각 파트 지원 등
 >
 > 김민주 - 학습 단어장, 모델 구축/학습 등
 >
-> 송아람 - 웹크롤링, 데이터 수집, 정제 등
+> 송아람 - 웹 스크래핑, 데이터 수집, 정제, 전처리 데이터 검수 등
 >
-> 정진현 - Front/Backend Webservice 등
+> 정진현 - Front/Backend Webservice 구현 등
 >
-> 박성돈 - Git/Github 사용/관리, MLops 등
+> 박성돈 - Git/Github 사용/관리, MLops 자동화 구축 등
 
 - 차근차근 채워나가고 있습니다. 자세한 내용은 아래 log를 확인바랍니다.
 
@@ -23,7 +23,7 @@
 |22.05.10|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220510.md)||
 |22.05.11|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220511.md)||
 |22.05.12|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220512.md)||
-|22.05.13|멘토링 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220513.md)||
+|22.05.13|멘토링 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220513.md)|[🗂](https://modulabs.notion.site/22-05-13-90da5c10c6094b6f9b3f5bc0c93c2436)|
 
 #### Aiffelthon Troubleshooting Log
 |일자|Trouble|Solution|링크(Markdown)|
