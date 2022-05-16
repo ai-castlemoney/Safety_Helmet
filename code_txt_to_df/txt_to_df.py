@@ -301,7 +301,7 @@ txt_path = "txt_preprocessing_r2/C-01-2011.txt"
 txts = load_txt(txt_path)
 
 # 경로의 모든 파일에 대하여
-read_dir = '/Users/namcheolher/aiffel/Safety_Helmet/txt_preprocessing_r2'
+read_dir = '/Users/namcheolher/aiffel/Safety_Helmet/code_txt_to_df/txt_preprocessing_r2'
 txts = load_txts(read_dir)
 
 # 확인
