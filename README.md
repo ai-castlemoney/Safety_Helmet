@@ -24,6 +24,7 @@
 |22.05.11|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220511.md)||
 |22.05.12|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220512.md)||
 |22.05.13|멘토링 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220513.md)|[🗂](https://modulabs.notion.site/22-05-13-90da5c10c6094b6f9b3f5bc0c93c2436)|
+|22.05.16|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/daily_log/220516.md)|[🗂](https://modulabs.notion.site/22-05-16-c19c4e9e4ee541678ccbd44f0b7c2116)|
 
 #### Aiffelthon Troubleshooting Log
 |일자|Trouble|Solution|링크(Markdown)|
