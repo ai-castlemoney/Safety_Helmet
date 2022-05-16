@@ -1,4 +1,4 @@
-doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content+category,gruop,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
+doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content_category,group,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
 C-02-2020,4.,,,,,,,,,,,바지(Barge)선 이용 작업,,,,,,,,,,,
 C-02-2020,4.,4.1,,,,,,,,,,바지선의 종류,,,,,,,,,,,
 C-02-2020,4.,4.1,,,(1),,,,,,,,기능별 종류,<그림 1_2>,,,,,,,,,

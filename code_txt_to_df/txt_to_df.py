@@ -113,7 +113,7 @@ def txt_to_df(doc_code, txt, df, cols):
     for line in txt: # 각 문장에 대해서
 
         # 글머리, 내용을 분리
-        
+        line = line.replace('\xad','')
         line_splitted = line.split()
         if line:
             #print(doc_code,line)
@@ -219,13 +219,15 @@ def txt_to_df(doc_code, txt, df, cols):
                 elif pre_col_type == "c3":
                     new_row["c4"] = line_head
                     new_row["content"] = data
+                elif pre_col_type == '-':
+                    new_row["content"] = data
                 else:
                     pass
             # col_type 이 그림 표 부록 등 이전행에 추가될 자료, 이전 행에 추가 후 다음 반복으로(continue)
             ## 바로 내용이 나오는 content 도 마찬가지.
             elif col_type =="content":
                 if df.iloc[-1][col_type] != None : # 기존에 항목이 있으면 ", data"를 추가
-                    df.iloc[-1][col_type] = df.iloc[-1][col_type] + "\n" + line
+                    df.iloc[-1][col_type] = df.iloc[-1][col_type] + " " + line
                 else:
                     df.iloc[-1][col_type] = line
                 continue
@@ -276,8 +278,8 @@ cols = [
     "c3",
     "c4",
     "title_category",
-    "content+category",
-    "gruop",
+    "content_category",
+    "group",
     "title",
     "content",
     "image",

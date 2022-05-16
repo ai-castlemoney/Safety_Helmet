@@ -1,4 +1,4 @@
-doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content+category,gruop,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
+doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content_category,group,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
 C-44-2015,4.,,,,,,,,,,,공사 전 검토,,,,,,,,,,,
 C-44-2015,4.,4.1,,,,,,,,,,설계도 및 공작도 확인,,,,,,,,,,,
 C-44-2015,4.,4.1,,,(1),,,,,,,,"부재의 형상 및 치수(길이, 폭 및 두께), 접합부의 위치, 브라켓의 내민치수, 건물의 높이 등을 확인하여 철골의 세우기 형식이나 세우기 작업상의 문제점, 관련 가설 설비 등을 검토하여야 한다.",,,,,,,,,,

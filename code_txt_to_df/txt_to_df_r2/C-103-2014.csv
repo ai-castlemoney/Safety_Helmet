@@ -1,4 +1,4 @@
-doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content+category,gruop,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
+doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content_category,group,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
 C-103-2014,4.,,,,,,,,,,,계측관리 필요성 및 목적,,,,,,,,,,,
 C-103-2014,4.,4.1,,,,,,,,,,계측관리 필요성,,,,,,,,,,,
 C-103-2014,4.,4.1,,,(1),,,,,,,,"설계 시 가정한 지반조건과 토질정수가 실제 현장 조건과 정확히 일치하기는 어려우며, 설계 단계에서 상세한 시공과정을 모두 고려할 수 없으므로 주위 지반 및 기존 구조물의 정확한 거동을 예측하는 것은 불가능하다.",,,,,,,,,,

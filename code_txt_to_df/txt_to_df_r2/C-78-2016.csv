@@ -1,11 +1,9 @@
-doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content+category,gruop,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
+doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content_category,group,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
 C-78-2016,4.,,,,,,,,,,,콘크리트 옹벽의 종류,,,,,,,,,,,
 C-78-2016,4.,,,,(1),,,,,,,,콘크리트 옹벽의 종류는 다음과 같다.,,,,,,,,,,
-C-78-2016,4.,,,,(1),(가),,,,,,,"중력식 옹벽
-옹벽 자체의 무게로 토압 등의 외력을 지지하여 자중으로 토압에 저항하는 형식으로 <그림 4>와 같다.
+C-78-2016,4.,,,,(1),(가),,,,,,,"중력식 옹벽 옹벽 자체의 무게로 토압 등의 외력을 지지하여 자중으로 토압에 저항하는 형식으로 <그림 4>와 같다.
 ",<그림 4>,,,,,,,,,
-C-78-2016,4.,,,,(1),(나),,,,,,,"반중력식 옹벽
-반중력식 옹벽은 중력식 옹벽의 벽두께를 얇게 하고 이로 인해 생기는 인장 응력에 저항하기 위해 철근을 배치한 형식으로 <그림 5>와 같다.
+C-78-2016,4.,,,,(1),(나),,,,,,,"반중력식 옹벽 반중력식 옹벽은 중력식 옹벽의 벽두께를 얇게 하고 이로 인해 생기는 인장 응력에 저항하기 위해 철근을 배치한 형식으로 <그림 5>와 같다.
 ",<그림 5>,,,,,,,,,
 C-78-2016,4.,,,,(1),(다),,,,,,,캔틸레버(Cantilever)식 옹벽,,,,,,,,,,
 C-78-2016,4.,,,,(1),(다),①,,,,,,역T형 옹벽: 옹벽의 배면에 기초 슬래브가 일부 돌출한 모양의 옹벽형식으로 <그림 6>과 같다.,<그림 6>,,,,,,,,,

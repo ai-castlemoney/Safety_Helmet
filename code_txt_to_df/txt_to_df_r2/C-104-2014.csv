@@ -1,4 +1,4 @@
-doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content+category,gruop,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
+doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content_category,group,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
 C-104-2014,4.,,,,,,,,,,,굴착사면 안전 사항,,,,,,,,,,,
 C-104-2014,4.,4.1,,,,,,,,,,사전 검토사항,,,,,,,,,,,
 C-104-2014,4.,4.1,,,(1),,,,,,,,"굴착공사 전에 설계도면과 사면안정해석 등의 내용을 검토하여 굴착사면의 위치, 지반의 종류 및 특성, 함수량 정도 등의 설계조건과 현장조건을 비교 검토하여 굴착사면의 안전기울기의 적정성 여부를 파악한다.",,,,,,,,,,

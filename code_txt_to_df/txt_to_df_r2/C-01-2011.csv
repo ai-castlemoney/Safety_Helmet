@@ -1,4 +1,4 @@
-doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content+category,gruop,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
+doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content_category,group,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
 C-01-2011,4.,,,,,,,,,,,시스템폼의 구성 부재,,,,,,,,,,,
 C-01-2011,4.,4.1,,,,,,,,,,구성 및 특성,,,,,,,,,,,
 C-01-2011,4.,4.1,,,(1),,,,,,,,"시스템폼은 기본적으로 2개 이상의 브라켓 유니트로 이루어져 있다. 상부 작업대(0레벨) 중간작업대(-1레벨), 하부작업대(-2레벨), 거푸집 및 콘크리트 타설용 발판(+1레벨)로 구성되어 있다.",,,,,,,,,,

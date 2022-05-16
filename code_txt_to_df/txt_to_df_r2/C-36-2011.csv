@@ -1,4 +1,4 @@
-doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content+category,gruop,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
+doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content_category,group,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
 C-36-2011,4.,,,,,,,,,,,작업대차의 설계․제작 시 검토사항,,,,,,,,,,,
 C-36-2011,4.,4.1,,,,,,,,,,하중조건,,,,,,,,,,,
 C-36-2011,4.,4.1,,,(1),,,,,,,,"설계 시 고려하여야하는 하중조건은 자중, 작업하중(작업발판, 거푸집하중, 근로자 무게 등), 충격하중, 풍하중, 장비하중 등으로 구분되며, 하중조합에 의한 최대 발생 응력에 대하여 검토하여야 한다.",,,,,,,,,,

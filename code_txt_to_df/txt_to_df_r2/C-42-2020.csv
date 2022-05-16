@@ -1,4 +1,4 @@
-doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content+category,gruop,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
+doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content_category,group,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
 C-42-2020,4.,,,,,,,,,,,시스템 동바리 설치․해체 안전작업 절차,"시스템비계 설치․해체 작업은 <그림 2>와 같이 작업절차를 준수하여야 한다.
 ",<그림 2>,,,,,,,,,
 C-42-2020,5.,,,,,,,,,,,조립계획,,,,,,,,,,,

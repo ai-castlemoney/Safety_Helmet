@@ -1,4 +1,4 @@
-doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content+category,gruop,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
+doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content_category,group,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
 C-68-2012,4.,,,,,,,,,,,재료의 성능,,,,,,,,,,,
 C-68-2012,4.,4.1,,,,,,,,,,보강토(뒷채움재),,,,,,,,,,,
 C-68-2012,4.,4.1,,,(1),,,,,,,,보강토(뒷채움재)는 유기질 및 유해물이 함유되지 않은 재료를 사용하여야 한다.,,,,,,,,,,

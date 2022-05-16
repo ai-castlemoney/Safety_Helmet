@@ -1,4 +1,4 @@
-doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content+category,gruop,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
+doc_code,t1,t2,t3,t4,c1,c2,c3,c4,title_category,content_category,group,title,content,image,table,appendix,math_exp,attachment,reference,enclosure_image,enclosure,asterisk,appendix_table
 C-88-2013,4.,,,,,,,,,,,NTR공법의 특징 및 작업순서,,,,,,,,,,,
 C-88-2013,4.,4.1,,,,,,,,,,NTR공법의 특징,,,,,,,,,,,
 C-88-2013,4.,4.1,,,(1),,,,,,,,"관 측면부를 절단하여, 강관과 강관 사이에 철판으로 용접해 이어주므로 구조체 전체의 방수가 확실하다.",,,,,,,,,,
