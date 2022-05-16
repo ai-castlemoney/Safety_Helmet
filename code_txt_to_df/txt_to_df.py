@@ -225,7 +225,7 @@ def txt_to_df(doc_code, txt, df, cols):
             ## 바로 내용이 나오는 content 도 마찬가지.
             elif col_type =="content":
                 if df.iloc[-1][col_type] != None : # 기존에 항목이 있으면 ", data"를 추가
-                    df.iloc[-1][col_type] = df.iloc[-1][col_type] + ", " + line
+                    df.iloc[-1][col_type] = df.iloc[-1][col_type] + "\n" + line
                 else:
                     df.iloc[-1][col_type] = line
                 continue
@@ -275,6 +275,9 @@ cols = [
     "c2",
     "c3",
     "c4",
+    "title_category",
+    "content+category",
+    "gruop",
     "title",
     "content",
     "image",
@@ -307,7 +310,7 @@ txts = load_txts(read_dir)
 # 확인
 print(txts)
 # 저장경로
-save_dir = '/Users/namcheolher/aiffel/Safety_Helmet/code_txt_to_df/txt_to_df'
+save_dir = '/Users/namcheolher/aiffel/Safety_Helmet/code_txt_to_df/txt_to_df_r2'
 for doc_code, txt in txts.items(): # 각 문서에 대하여
     #df 초기화
     df = pd.DataFrame(columns = cols)
