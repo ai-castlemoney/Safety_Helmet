@@ -72,6 +72,8 @@ def get_col_type(line_head, cols):
         col_type = '-'
     elif line_head == '그림':
         col_type = 'image'
+    elif line_head == '사진':
+        col_type = 'picture'
     elif line_head == '표':
         col_type = "table"
     elif line_head == '부록':
@@ -231,7 +233,7 @@ def txt_to_df(doc_code, txt, df, cols):
                 else:
                     df.iloc[-1][col_type] = line
                 continue
-            elif col_type in ["image","table","appendix","math_exp","attachment","reference","enclosure_image","enclosure","asterisk",'appendix_table']:
+            elif col_type in ["image","picture","table","appendix","math_exp","attachment","reference","enclosure_image","enclosure","asterisk",'appendix_table']:
                 # df 마지막 행의 [col_type] = data
                 #print(df.iloc[-1][col_type])
                 #print('여기?')
@@ -252,7 +254,7 @@ def txt_to_df(doc_code, txt, df, cols):
 
 
             # t#, c# 을 제외하고 new_row 초기화
-            for col_name in ["title","content","image","table","appendix","math_exp","attachment","reference","enclosure_image","enclosure","asterisk",'appendix_table']:
+            for col_name in ["title","content","image","picture","table","appendix","math_exp","attachment","reference","enclosure_image","enclosure","asterisk",'appendix_table']:
                 new_row[col_name] = None
                 
             #print(line_head, col_type)
@@ -266,7 +268,7 @@ def txt_to_df(doc_code, txt, df, cols):
 #----------------- MAIN ---------------------#  
 
 # df 초기화, 사용할 컬럼명 지정 
-# 차례로 문서코드, 제목1~3, 내용1~4, 제목, 내용, 그림, 표, 부록, 수식, 붙임, 참고, 별지_그림, 별지, 별표, 부록_표
+# 차례로 문서코드, 제목1~3, 내용1~4, 제목, 내용, 그림, 사진, 표, 부록, 수식, 붙임, 참고, 별지_그림, 별지, 별표, 부록_표
 cols = [
     "doc_code",
     "t1",
@@ -283,6 +285,7 @@ cols = [
     "title",
     "content",
     "image",
+    "picture",
     "table",
     "appendix",
     "math_exp",
