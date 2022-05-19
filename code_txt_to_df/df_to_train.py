@@ -61,7 +61,7 @@ def train_DF_to_csv(train_DF, save_dir):
 # 메인
 
 ## 읽기 경로
-read_dir = "/Users/namcheolher/aiffel/Safety_Helmet/code_txt_to_df/db_df"
+read_dir = "/Users/namcheolher/aiffel/Safety_Helmet/add_MS_Column/csv"
 save_dir = '/Users/namcheolher/aiffel/Safety_Helmet/code_txt_to_df/db_df_result'
 
 dfs = load_dfs(read_dir)
