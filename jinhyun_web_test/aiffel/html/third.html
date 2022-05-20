@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-color: white;
+            height: 100px;
+        }
+        nav {
+            background-color: white;
+            width:200px;
+            height:300px;
+            float:left;
+        }
+        section {
+            width:200px;
+            text-align: left;
+            float: left;
+            padding: 10px;
+        }
+        footer {
+            background-color: white;
+            height: 100px;
+            clear: both;
+        }
+        header, nav, section, footer { text-align:center;}
+        header, footer { line-height:100px; }
+        nav, section { line-height:240px; }
+
+        h1 { text-align: center;}
+        h2 { text-align: left;}
+        h3 { text-align: left;}
+    </style>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link href="../css/third.css" rel="stylesheet">
+</head>
+<body>
+    <h1>장비 작업 허가서</h1>
+    <h2 style="font-size: 15px;">part 1 작업사항</h2>
+    <main class="contanier">
+        <button type="button" class="btn btn-primary" onclik="doSave();">Save</button>
+
+    <table border="2" bordercolor="black" width ="1500" height="100" align = "center" >
+        <tr bgcolor="black" align ="center">
+        </tr>
+        <tr align = "center" bgcolor="white">
+        <td>작업 일자</td>
+        <td><input type="date" style="width:400px"></td>
+        <td>작업 시간</td>
+        <td><input type="time" style="width:160px"></td>
+        </tr>
+        <tr align = "center" bgcolor="white">
+        <td>신청 업체명</td>
+        <td><input type="text" style="width:400px"></td>
+        <td>작업 인원</td>
+        <td> <input type="text">명 </td>
+        </tr>
+        <tr align = "center" bgcolor="white">
+        <td>첨부 서류</td>
+        <td>차량계 건설기계 / 하역운반 작업계획서 / 중량물 취급 작업 계획서</td>
+        </tr>
+        <tr align = "center" bgcolor="white">
+        <td>장비 종류</td>
+        <td><label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> 크레인,</label>    
+            <label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> 굴삭기,</label>    
+            <label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> 펌프카,</label>    
+            <label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> 기타 (<input type="text"> )</label>    </td>
+        
+        </tr>
+        
+     
+      </table>
+      <h3 style="font-size:15px"> part 2 세부작업내용 및 위험요소</h3>
+      <main class="contanier">
+        <button type="button" class="btn btn-primary" onclik="doSave();">Save</button>
+
+      <table border="2" bordercolor="black" width ="1500" height="50" text-align = "center" >
+        <tr bgcolor="white" align ="center">
+        </tr>
+        <tr text-align = "center" bg-color="white">
+        <td>작업 내용</td>
+        <td>위험요소 및 대책</td>
+        </tr>
+        <tr text-align = "center" bg-color="white">
+        <td><input type="text" style="width:600px"></td>
+        <td><input type="text" style="width:600px"></td>
+        </tr>
+     
+      </table>
+      <h3 style="font-size: 15px">part 3 작업 전 안전점검 사항</h3>
+      <main class="contanier">
+        <button type="button" class="btn btn-primary" onclik="doSave();">Save</button>
+
+      <table border="2" bordercolor="black" width ="1500" height="100" align = "center" >
+        <tr bgcolor="white" align ="center">
+        </tr>
+        <tr align = "center" bgcolor="white">
+        <td>운전원 면허 및 보험가입여부</td>
+        <td><label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> YES</label>    <label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> NO</label>    </td>
+        <td> 신호수 배치(복장)</td>
+        <td><label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> YES</label>    <label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> NO</label></td>
+        </tr>
+        <tr align = "center" bgcolor="white">
+        <td>중장비 정기검사 기한 확인</td>
+        <td><label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> YES</label>    <label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> NO</label></td>
+        <td>법적 방호장치 설치/작동</td>
+        <td><label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> YES</label>    <label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> NO</label></td>
+        </tr>
+        <tr align = "center" bgcolor="white">
+        <td>지반침하 여부</td>
+        <td><label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> YES</label>    <label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> NO</label></td>
+        <td>버킷 안전핀 및 식별띠</td>
+        <td><label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> YES</label>    <label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> NO</label></td>
+        </tr>
+        <tr align = "center" bgcolor="white">
+        <td>받침목 (각재금지 - 철선결속)</td>
+        <td><label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> YES</label>    <label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> NO</label></td>
+        <td>인양 방법 및 달기구 적정성</td>
+        <td><label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> YES</label>    <label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> NO</label></td>
+        </tr>
+        <tr align = "center" bgcolor="white">
+            <td>작업전 TBM 및 안전교육</td>
+            <td><label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> YES</label>    <label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> NO</label></td>
+            <td>접근금지 조치 및 표지판</td>
+            <td><label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> YES</label>    <label class="form-check-label form-check-inline"><input type="checkbox" name="chk_lang" value="html"  /> NO</label></td>
+            </tr>
+    
+        </table>
+
+ 
+
+
+      <h4 style="font-size:15px">part 4 검토 및 승인</h4>
+      <main class="contanier">
+        <button type="button" class="btn btn-primary" onclik="doSave();">Save</button>
+
+      <table border="2" bordercolor="black" width ="1500" height="50" align = "center" >
+        <tr bgcolor="white" align ="center">
+        </tr>
+        <tr align = "center" bgcolor="white">
+        <td>검토자/승인자</td>
+        <td>일자</td>
+        <td>이름</td>
+        <td>서명</td>
+        </tr>
+        <tr align = "center" bgcolor="white">
+        <td>작성자 ( 협력사 )</td>
+        <td>2022.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        </tr>
+        <tr align = "center" bgcolor="white">
+            <td>검토 ( 시공팀장 )</td>
+            <td>2022.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td></tr>
+            <tr align = "center" bgcolor="white">
+                <td>검토 ( 시공팀장 )</td>
+                <td>2022.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td></tr>
+                <tr align = "center" bgcolor="white">
+                    <td>승인 ( 안전팀장 )</td>
+                    <td>2022.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td></tr>
+         
+      </table>
+      <script>
+        function doSave(){
+            let chk_langs = document.getElementsByName("chk_lang");
+            let checked_lang_items = [];
+            for(let i=0 ; i<chk_langs.length ; i++) {
+                if(chk_langs[i].checked){
+                checked_langs_items.push(chk_langs[i].value);
+            }
+        }
+        console.log(checked_lang_items)
+    }
+    </script> 
+    <button type="button" class="btn btn-primary" onclik="doSave();">제출</button>
+
+      
+    </body>
+</html>
