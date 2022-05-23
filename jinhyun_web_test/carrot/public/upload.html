@@ -81,7 +81,7 @@
 
         var file = document.querySelector('#image').files[0];
         var storageRef = storage.ref();
-        var 저장할경로 = storageRef.child('image/'+ 'file.name');
+        var 저장할경로 = storageRef.child('image/'+ file.name);
         var 업로드작업 = 저장할경로.put(file)
 
 
@@ -102,12 +102,12 @@
             가격 : $('#price').val(),
             내용 : $('#content').val(),
             날짜 : new Date(),
-            이미지: $('#image').val(),
+            이미지 : url
         }
 
         db.collection('product').add(저장할거).then((result)=>{
             console.log(result);
-            window.location.href = "../public/index.html";
+            window.location.href = "../public/index.html"
         }).catch((err)=>{
             console.log(err)
         })
