@@ -45,13 +45,16 @@ def dfs_to_trainDF(dfs):
                 pass
         else:
             pass
-    return train_data_list
+    # 리스트를 df 로 변환
+    df = pd.DataFrame(train_data_list, columns = ['sentence'])
+    return df
 
 def train_DF_to_csv(train_DF, save_dir):
     file_name = 'tf_idf_train_GJ&info.csv'
-    with open(save_dir+'/'+file_name, 'w') as file: 
-        writer = csv.writer(file) 
-        writer.writerow(train_DF)
+    # with open(save_dir+'/'+file_name, 'w') as file: 
+    #     writer = csv.writer(file) 
+    #     writer.writerow(train_DF)
+    train_DF.to_csv(save_dir+'/'+file_name)
     return "done"
 
 
@@ -71,6 +74,7 @@ print('Df 길이',len(dfs))
 #print(str(NaN))
 
 train_DF = dfs_to_trainDF(dfs)
+print(train_DF.head())
 #print(train_DF)
 print('train_DF 길이',len(train_DF))
 train_DF_to_csv(train_DF, save_dir)
