@@ -20,5 +20,5 @@ for i in range(len(data)):
 dataframe = pd.DataFrame(data)
 
 print(dataframe)
-dataframe.to_csv('accident_case_preprocessing/test_preprocessing2.csv', index=False)
+dataframe.to_csv('accident_case_preprocessing/test_preprocessing2.csv', index=False, encoding='utf-8')
 print('done')  
