@@ -11,6 +11,7 @@ for i in range(len(data)):
     content = data['sentence'][i]
     content = str(content)
     if ('재해개요' in content) or ('※' in content):
+        content = content.replace('재해개요', '')  # 변수에 할당해야 적용된다. 
         content = content.replace('재해개요\r\n', '')  # 변수에 할당해야 적용된다. 
         content = content.replace("\n", "")
         index = content.find('※')

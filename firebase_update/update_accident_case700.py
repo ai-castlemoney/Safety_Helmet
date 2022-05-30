@@ -15,7 +15,7 @@ from firebase_admin import firestore
 
 
 #파일 읽어오기
-update_db = pd.read_csv('/Users/namcheolher/aiffel/Safety_Helmet/firebase_update/DB_firebase/DB_id_accident_case_700.csv',
+update_db = pd.read_csv('/Users/namcheolher/aiffel/Safety_Helmet/firebase_update/DB_firebase/DB_id_accident_case_601.csv',
                     index_col=0,
                     dtype = {'id': str})
 #update_db.reset_index(drop=True, inplace=True)
