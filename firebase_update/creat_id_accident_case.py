@@ -16,8 +16,11 @@ from firebase_admin import firestore
 #파일 읽어오기
 update_db = pd.read_csv('/Users/namcheolher/aiffel/Safety_Helmet/accident_case/EDA_accdent_case/1. EDA_컬럼분할, 제거.csv', index_col = 0)
 update_db.reset_index(drop=True, inplace=True)
+update_db.insert(0,'id','')
 update_db.insert(3,'사고경위_구체적 사고원인','')
 update_db['사고경위_구체적 사고원인'] = update_db[['사고경위', '구체적 사고원인']].apply(lambda row: ', '.join(row.values.astype(str)), axis=1)
+for i in range(len(update_db)):
+    update_db['id'][i] = 'AC-A-' + '{0:05d}'.format(i)
 
 print(update_db.columns)
 print(update_db.head())
