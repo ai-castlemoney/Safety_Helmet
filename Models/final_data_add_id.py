@@ -2,32 +2,47 @@
 
 import pandas as pd
 
-# 규정 id
+# 규정 및 사고사례 데이터 가져오기
 data_GJ_path = 'firebase_update/DB_firebase/DB_id_GJ.csv'
+data_case6_path = 'firebase_update/DB_firebase/DB_id_accident_case_601.csv'
+data_case100_path = 'firebase_update/DB_firebase/DB_id_accident_case_10000.csv'
+
 data_GJ = pd.read_csv(data_GJ_path)
-data_GJ_id = data_GJ['id']
+data_case6 = pd.read_csv(data_case6_path)
+data_case100 = pd.read_csv(data_case100_path)
 
-# 601 id
-data_601_path = 'firebase_update/DB_firebase/DB_id_accident_case_601.csv'
-data_601 = pd.read_csv(data_601_path)
-data_601_id = data_601['id']
+# 불러온 3개 데이터에서 내용만 가져오기
+data_GJ_sentence_id =  pd.DataFrame(data_GJ[data_GJ['group']=='m'][['id','sentence']])  # 데이터 중 m으로 묶인 부분만 가져오기
+print(data_GJ_sentence_id)
+# data_GJ_sentence_id.to_csv('data_GJ_sentence_id.csv')
 
-# 10000 id
-# 사고사례 10000은 id 부여가 되어있지 않음.
-# data_10000_path = 'firebase_update/DB_firebase/DB_id_accident_case_10000.csv'
-# data_10000 = pd.read_csv(data_10000_path)
-# data_10000_id = data_10000['id']
+data_case6_sentence_id =  pd.DataFrame(data_case6[['id','title_sentence']])
+print(data_case6_sentence_id)
 
-id_before = data_GJ_id.append(data_601_id)
-print(id_before)
-print(len(id_before))
-df_id = pd.DataFrame(id_before, columns = 'id')
-# id_final = id_before.append(data_10000_id)
-# print(id_final)
-# print(len(id_final))
+data_case100_sentence_id =  pd.DataFrame(data_case100[['id','사고경위_구체적 사고원인']])
+print(data_case100_sentence_id)
 
-data_path = 'Models/final_data.csv'
-data = pd.read_csv(data_path)
-df = pd.DataFrame(data)
 
-df.loc[:,'id'] = df_id
+data_case6_sentence_id.rename(columns = {'title_sentence':'sentence'},inplace=True)   # sentence로 column rename
+
+data_case100_sentence_id.rename(columns = {'사고경위_구체적 사고원인':'sentence'},inplace=True)   # sentence로 column rename
+
+sentence_before = data_GJ_sentence_id.append(data_case6_sentence_id, ignore_index=True)
+sentence_after = sentence_before.append(data_case100_sentence_id, ignore_index=True)
+
+sentence_after.to_csv('C:/Users/김민주/project/Safety_Helmet/Models/final_data.csv')
+
+# --------------------
+# 불러온 3개 데이터에서 id만 가져오기
+# data_GJ_id =  pd.DataFrame(data_GJ['id'])
+# data_case6_id =  pd.DataFrame(data_case6['id'])
+# data_case100_id =  pd.DataFrame(data_case100['id'])
+
+# id_before = data_GJ_id.append(data_case6_id, ignore_index=True)
+# id_after = id_before.append(data_case100_id, ignore_index=True)
+
+# data = pd.concat([id_after, sentence_after], axis=1, ignore_index=True)
+
+
+# print(data)
+#data.to_csv('C:/Users/김민주/project/Safety_Helmet/Models/final_data.csv')

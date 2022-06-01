@@ -40,9 +40,10 @@ import re
 # 리스트 형식으로 데이터를 바꿔준다.
 data_path = 'Models/final_data.csv'
 data = pd.read_csv(data_path)
+data_sentence = data['sentence']
 
 corpuses = []
-for sentence in data['sentence']:
+for sentence in data_sentence:
     corpuses.append(sentence)
     #print(sentence)
 
@@ -61,17 +62,17 @@ def meacb_tokenizer(corpuses):
         answer.append(temp)
     return answer
 
-# answer, a = meacb_tokenizer(corpuses)
-# print(a)
+#answer, a = meacb_tokenizer(corpuses)
+#print(a)
 
 # unique 값만 모아놓은 단어장 크기 확인
-# list_word = []
-# for i in answer:
-#     for j in i:
-#         list_word.append(j)
-# 
-# size_words = list(set(list_word))
-# print(len(size_words))
+#list_word = []
+#for i in answer:
+#    for j in i:
+#        list_word.append(j)
+#
+#size_words = list(set(list_word))
+#print(len(size_words))
 
 # epoch 당 loss 확인
 class callback(CallbackAny2Vec):
@@ -91,7 +92,7 @@ class callback(CallbackAny2Vec):
 
 # 모델 생성
 mecab_word2vec_model = Word2Vec(meacb_tokenizer(corpuses), epochs=128, vector_size=300, window=10, min_count=3, workers=4, sg=1, compute_loss=True, callbacks=[callback()])
-mecab_word2vec_model.save('Models/word2vec_model/GJ&case_mecab_ing_word2vec_2.model')
+mecab_word2vec_model.save('Models/word2vec_model/final_data_mecab_ing_word2vec.model')
 print('done :)')
 
 

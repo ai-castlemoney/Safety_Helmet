@@ -5,12 +5,12 @@ import pprint
 import re
 
 # csv형태의 데이터를 불러온다.
-data_path = 'C:/Users/김민주/project/Safety_Helmet/Models/sample_data/train_GJ&case.csv'
-data = pd.read_csv(data_path, encoding='cp949')
+data_path = 'C:/Users/김민주/project/Safety_Helmet/firebase_update/DB_firebase/DB_id_accident_case_10000.csv'
+data = pd.read_csv(data_path)
 
 # 리스트 형식으로 데이터를 바꿔준다.
 corpuses = []
-for sentence in data['sentence']:
+for sentence in data['사고경위_구체적 사고원인']:
     corpuses.append(sentence)
     #print(sentence)
 
@@ -31,4 +31,4 @@ def meacb_tokenizer(corpuses):
 answer = meacb_tokenizer(corpuses)
 
 df = pd.DataFrame(answer)
-df.to_csv('Models/create_vocabulary/GJ&case_mecab_words2.csv')
+df.to_csv('Models/create_vocabulary/case_10000_mecab_words_nan.csv')
