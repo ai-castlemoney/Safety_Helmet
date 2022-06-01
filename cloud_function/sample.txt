@@ -1,0 +1,38 @@
+def hello_firestore(event, context):
+    """Triggered by a change to a Firestore document.
+    Args:
+         event (dict): Event payload.
+         context (google.cloud.functions.Context): Metadata for the event.
+    """
+    resource_string = context.resource
+    # print out the resource string that triggered the function
+    print(f"Function triggered by change to: {resource_string}.")
+    # now print out the entire event object
+    print(str(event))
+
+    import firebase_admin
+    from firebase_admin import credentials
+    from firebase_admin import firestore
+
+    from gensim.test.utils import common_texts
+    from gensim.models import Word2Vec
+
+    # 파이어베이스 앱 이니셜라이즈
+     
+
+
+    # 작업허가서 데이터 읽어서 단어 Input 값 만들기
+
+
+    # 규정 유사도 측정
+
+
+
+    #
+
+
+    ________________
+# Function dependencies, for example:
+# package>=version
+firebase_admin
+gensim.models 
