@@ -18,6 +18,7 @@ print(vocabs)
 # word_vectors_list = [word_vectors[v] for v in vocabs]
 # #print(word_vectors_list[:5])
 
+
 # # 벡터가 들어있는 리스트를 넘파이 배열로 변환한다.
 # word_vectors_np = np.array(word_vectors_list)
 

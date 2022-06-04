@@ -21,7 +21,7 @@ case600_id = data_id[7593:8194+1]
 #print(len(case600_id))
 case10000_id = data_id[8195:]
 #print(case10000_id.tail(3))
-#print(len(case10000_id))
+#print(len(case10000_id))   560812322775
 
 GJ_id.to_csv("C:/Users/김민주/project/Safety_Helmet/Models_2/data/GJ_id.csv", index = False)
 case600_id.to_csv("C:/Users/김민주/project/Safety_Helmet/Models_2/data/case600_id.csv", index = False)

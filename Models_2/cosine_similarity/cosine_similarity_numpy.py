@@ -1,12 +1,9 @@
-# sklearn을 사용한 코사인 유사도 측정
 from gensim.models import Word2Vec
-from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import pandas as pd
 
 # input으로 받는 단어들
 input_words = ['조경', '이식', '이동식크레인', '조경수', '충전전로', '전선', '전봇대', '맨홀', '벽', '고압선', '고소']
-
 
 # input으로 받은 단어들의 평균 벡터(문장벡터)를 구하는 함수
 def makeFeatureVec(input_words):
@@ -21,23 +18,34 @@ def makeFeatureVec(input_words):
 
     return input_sen2vec
 
-
 words_vector = makeFeatureVec(input_words)
-# words_vector.shape : (300, _)
-# 코사인 유사도가 진행되기 위해 reshape 진행
 words_vector = words_vector.reshape(1, -1)
-# words_vector.shape : (_, 300)
 
 # 규정, 600, 10000의 sentence_vector 불러오기
 case600_vector = np.load('Models_2/create_sentence_vector/sentence_vector_final_r1_case600.npy')
 case10000_vector = np.load('Models_2/create_sentence_vector/sentence_vector_final_r1_case10000.npy')
 GJ_vector = np.load('Models_2/create_sentence_vector/sentence_vector_final_r1_GJ.npy')
+# print(case600_vector.shape)
+# print(case10000_vector.shape)
+# print(GJ_vector.shape)
 
+# 코사인 유사도 측정하는 함수 생성
+# input_words : 입력 단어들의 벡터
+# vector : 규정, 사고사례 600, 10000 벡터
+def getSentenceVector(input_words, vector):
+    cosine_similarity = []
+    for vector_ in vector:
+        score = np.dot(input_words, vector_) / (np.linalg.norm(input_words) * (np.linalg.norm(vector_)))
+        cosine_similarity.append(score)
+    return np.array(cosine_similarity).reshape(1, -1)
 
 # 각각의 sentence_vector와 코사인 유사도 실행
-cosine_sim_600 = cosine_similarity(words_vector, case600_vector)        # input으로 받은 words와 case600()과 비교
-cosine_sim_10000 = cosine_similarity(words_vector, case10000_vector)
-cosine_sim_GJ = cosine_similarity(words_vector, GJ_vector)
+cosine_sim_600 = getSentenceVector(words_vector, case600_vector)        # input으로 받은 words와 case600()과 비교
+cosine_sim_10000 = getSentenceVector(words_vector, case10000_vector)
+cosine_sim_GJ = getSentenceVector(words_vector, GJ_vector)
+# print(cosine_sim_600.shape)
+# print(cosine_sim_10000.shape)
+# print(cosine_sim_GJ.shape)
 
 ## step 1 : index와 코사인 유사도 값이 튜플로 묶인 리스트 생성
 sim600_scores = list(enumerate(cosine_sim_600[0]))
@@ -54,7 +62,7 @@ simGJ_scores = sorted(simGJ_scores, key=lambda x: x[1], reverse=True)
 case600_top3 = sim600_scores[:3]
 case10000_top3 = sim10000_scores[:3]
 GJ_top3 = simGJ_scores[:10]
-print(case600_top3)
+# print(case600_top3)
 # print(case10000_top3)
 # print(GJ_top3)
 
