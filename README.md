@@ -11,7 +11,8 @@
 >
 > 박성돈 - Git/Github 사용/관리, MLOps 자동화 구축 등
 
-### [요주의 안전모 Precess]()
+### Precess
+![process](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/images/Safety_Helmet.png)
 
 #### Aiffelthon Daily Log(22.05.03 ~ 22.06.09)
 |일자|내용|링크1(Markdown)|링크2(Notion)|

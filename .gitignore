@@ -5,3 +5,4 @@ dist/*
 *.log
 package.json
 package-lock.json
+public/
