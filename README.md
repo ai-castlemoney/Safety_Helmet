@@ -9,9 +9,9 @@
 >
 > 정진현 - Front/Backend Webservice 구현 등
 >
-> 박성돈 - Git/Github 사용/관리, MLops 자동화 구축 등
+> 박성돈 - Git/Github 사용/관리, MLOps 자동화 구축 등
 
-- 차근차근 채워나가고 있습니다. 자세한 내용은 아래 log를 확인바랍니다.
+### [요주의 안전모 Precess]()
 
 #### Aiffelthon Daily Log(22.05.03 ~ 22.06.09)
 |일자|내용|링크1(Markdown)|링크2(Notion)|
