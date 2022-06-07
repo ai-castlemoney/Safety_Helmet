@@ -1,7 +1,0 @@
-# Function dependencies, for example:
-# package>=version
-firebase_admin
-gensim == 4.1.2
-numpy
-pandas
-scikit-learn
