@@ -12,7 +12,6 @@
 > 박성돈 - Git/Github 사용/관리, MLOps 자동화 구축 등
 
 ### Process
-![process](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/Safety_Helmet.png)   
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/Safety_Helmet.png" width="700px" title="px(픽셀) 크기 설정" alt="Safety_Helmet"></img><br/>
 
 #### Aiffelthon Daily Log(22.05.03 ~ 22.06.09)
