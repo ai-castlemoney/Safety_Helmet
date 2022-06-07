@@ -11,8 +11,18 @@
 >
 > 박성돈 - Git/Github 사용/관리, MLOps 자동화 구축 등
 
-### Process
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/Safety_Helmet.png" width="700px" title="px(픽셀) 크기 설정" alt="Safety_Helmet"></img><br/>
+### 1. 개요
+- 모델 : 산업안전지침(Kosha Guide) 요약 및 건설사고사례(CSI) 추천 모델   
+- 서비스 : 사용자(안전관리자, 현장작업자)가 특정한 작업(키워드) 전 관련 안전지침 요약과 사고사례 추천을 제공받는 웹 서비스   
+    - KORSHA : 산업안전보건공단
+    - CSI : 건설공사 안전관리 종합정보망   
+
+### 2. Process
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/Safety_Helmet.png" width="800px" title="px(픽셀) 크기 설정" alt="Safety_Helmet"></img><br/>
+
+
+
+
 
 #### Aiffelthon Daily Log(22.05.03 ~ 22.06.09)
 |일자|내용|링크1(Markdown)|링크2(Notion)|
