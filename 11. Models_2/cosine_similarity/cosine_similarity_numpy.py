@@ -1,3 +1,4 @@
+# sklearn의 cosine유사도 측정이 어려운 경우 사용할 코드(plan B)
 from gensim.models import Word2Vec
 import numpy as np
 import pandas as pd
@@ -75,7 +76,7 @@ GJ_top3_idx = [idx[0] for idx in GJ_top3]
 ## 1) case 600
 case600_id_path = 'Models_2/data/case600_id.csv'
 case600_id = pd.read_csv(case600_id_path)
-print(case600_id.iloc[case600_top3_idx])
+print(','.join(x[0] for x in case600_id.iloc[case600_top3_idx].values))
 ## 2) case 10000
 case10000_id_path = 'Models_2/data/case10000_id.csv'
 case10000_id = pd.read_csv(case10000_id_path)
