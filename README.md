@@ -69,7 +69,7 @@
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-5.png" width="900px" title="파라미터 설정" alt="04-5"></img><br/>   
 
 ### word2vec 임베딩 결과 시각화   
-<img src="https://user-images.githubusercontent.com/96903618/172521746-311e97b8-62c6-4cd5-a44e-99db29e5f6b5.gif" style="width:600px"></img><br/>   
+<img src="https://user-images.githubusercontent.com/96903618/172521746-311e97b8-62c6-4cd5-a44e-99db29e5f6b5.gif" title="word2vec 시각화"></img><br/>   
 
 ### 문장 간 유사도 측정   
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-6.png" width="900px" title="문장 간 유사도 측정" alt="04-6"></img><br/>   
@@ -79,34 +79,34 @@
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-1.png" width="900px" title="Firebase 작동 방식" alt="05-1"></img><br/>   
 
 ### ing   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-2.png" width="900px" title="사용자 정의 단어사전 구축" alt="05-2"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-2.png" width="900px" title="" alt="05-2"></img><br/>   
 
 ### ing   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-3.png" width="900px" title="사용자 정의 단어사전 추가 기준" alt="05-3"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-3.png" width="900px" title="" alt="05-3"></img><br/>   
 
 ### ing   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-4.png" width="900px" title="모델 선정" alt="05-4"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-4.png" width="900px" title="" alt="05-4"></img><br/>   
 
 ### ing   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-5.png" width="900px" title="파라미터 설정" alt="05-5"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-5.png" width="900px" title="" alt="05-5"></img><br/>   
 
 ### ing   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-6.png" width="900px" title="문장 간 유사도 측정" alt="05-6"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-6.png" width="900px" title="" alt="05-6"></img><br/>   
 
 ## 4. 시스템 엔지니어링 파트
 ### GCP / Cloud Functions   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/06-1.png" width="900px" title="Firebase 작동 방식" alt="06-1"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/06-1.png" width="900px" title="GCP / Cloud Functions" alt="06-1"></img><br/>   
 
 ### Git, Github 활용   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/06-2.png" width="900px" title="사용자 정의 단어사전 구축" alt="06-2"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/06-2.png" width="900px" title="Git, Github 활용" alt="06-2"></img><br/>   
 
 ### TroubleShooter로서 문제 해결   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/06-3.png" width="900px" title="사용자 정의 단어사전 추가 기준" alt="06-3"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/06-3.png" width="900px" title="TroubleShooter로서 문제 해결" alt="06-3"></img><br/>   
 
 ## 5. TroubleShooting
 ### 프로젝트 TroubleShooting   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/07-1.png" width="900px" title="Trouble 1-3" alt="07-1"></img><br/>   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/07-2.png" width="900px" title="Trouble 4-6" alt="07-2"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/07-1.png" width="900px" title="TroubleShooting 1-3" alt="07-1"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/07-2.png" width="900px" title="TroubleShooting 4-6" alt="07-2"></img><br/>   
 
 
 #### Aiffelthon Daily Log(22.05.03 ~ 22.06.09)
