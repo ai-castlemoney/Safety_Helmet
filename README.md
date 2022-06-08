@@ -31,39 +31,39 @@
 
 ## 프로젝트 진행사항   
 ### Process   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/Safety_Helmet.png" width="800px" title="Process" alt="Safety_Helmet"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/Safety_Helmet.png" width="900px" title="Process" alt="Safety_Helmet"></img><br/>   
 
 ## 1. 데이터 파트   
 ### 데이터 수집 [안전지침 및 사고사례]   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/03-1.png" width="800px" title="데이터 수집 [안전지침 및 사고사례]" alt="03-1"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/03-1.png" width="900px" title="데이터 수집 [안전지침 및 사고사례]" alt="03-1"></img><br/>   
 
 ### 데이터 정제 [안전 지침(KOSHA Guide)]   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/03-2.png" width="800px" title="데이터 정제 [안전 지침(KOSHA Guide)]" alt="03-2"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/03-2.png" width="900px" title="데이터 정제 [안전 지침(KOSHA Guide)]" alt="03-2"></img><br/>   
 
 ### 데이터 정제 [사고사례(KOSHA / CSI)]      
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/03-3.png" width="800px" title="데이터 정제 [사고사례(KOSHA / CSI)]" alt="03-3"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/03-3.png" width="900px" title="데이터 정제 [사고사례(KOSHA / CSI)]" alt="03-3"></img><br/>   
 
 ### 안전 지침 DB & 사고 사례 DB 구축   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/03-4.png" width="800px" title="안전 지침 DB & 사고 사례 DB 구축" alt="03-4"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/03-4.png" width="900px" title="안전 지침 DB & 사고 사례 DB 구축" alt="03-4"></img><br/>   
 
 ### 사고 사례 데이터 분석 [업종 / 시설물]      
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/03-5.png" width="800px" title="사고 사례 데이터 분석 [업종 / 시설물]" alt="03-5"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/03-5.png" width="900px" title="사고 사례 데이터 분석 [업종 / 시설물]" alt="03-5"></img><br/>   
 
 ### 사고 사례 데이터 분석 [사고 종류]   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/03-6.png" width="800px" title="사고 사례 데이터 분석 [사고 종류]" alt="03-6"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/03-6.png" width="900px" title="사고 사례 데이터 분석 [사고 종류]" alt="03-6"></img><br/>   
 
 ## 2. 모델 파트   
 ### Mecab 형태소 분석기 사용   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-1.png" width="800px" title="Mecab 형태소 분석기 사용" alt="04-1"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-1.png" width="900px" title="Mecab 형태소 분석기 사용" alt="04-1"></img><br/>   
 
 ### 사용자 정의 단어사전 구축   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-2.png" width="800px" title="사용자 정의 단어사전 구축" alt="04-2"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-2.png" width="900px" title="사용자 정의 단어사전 구축" alt="04-2"></img><br/>   
 
 ### 사용자 정의 단어사전 추가 기준   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-3.png" width="800px" title="사용자 정의 단어사전 추가 기준" alt="04-3"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-3.png" width="900px" title="사용자 정의 단어사전 추가 기준" alt="04-3"></img><br/>   
 
 ### 모델 선정   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-4.png" width="800px" title="모델 선정" alt="04-4"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-4.png" width="900px" title="모델 선정" alt="04-4"></img><br/>   
 
 ### 파라미터 설정   
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-5.png" width="900px" title="파라미터 설정" alt="04-5"></img><br/>   
@@ -72,41 +72,41 @@
 <img src="https://user-images.githubusercontent.com/96903618/172521746-311e97b8-62c6-4cd5-a44e-99db29e5f6b5.gif" style="width:600px"></img><br/>   
 
 ### 문장 간 유사도 측정   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-6.png" width="800px" title="문장 간 유사도 측정" alt="04-6"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-6.png" width="900px" title="문장 간 유사도 측정" alt="04-6"></img><br/>   
 
 ## 3. 웹 개발 파트
 ### Firebase 작동 방식   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-1.png" width="800px" title="Firebase 작동 방식" alt="05-1"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-1.png" width="900px" title="Firebase 작동 방식" alt="05-1"></img><br/>   
 
 ### ing   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-2.png" width="800px" title="사용자 정의 단어사전 구축" alt="05-2"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-2.png" width="900px" title="사용자 정의 단어사전 구축" alt="05-2"></img><br/>   
 
 ### ing   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-3.png" width="800px" title="사용자 정의 단어사전 추가 기준" alt="05-3"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-3.png" width="900px" title="사용자 정의 단어사전 추가 기준" alt="05-3"></img><br/>   
 
 ### ing   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-4.png" width="800px" title="모델 선정" alt="05-4"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-4.png" width="900px" title="모델 선정" alt="05-4"></img><br/>   
 
 ### ing   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-5.png" width="800px" title="파라미터 설정" alt="05-5"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-5.png" width="900px" title="파라미터 설정" alt="05-5"></img><br/>   
 
 ### ing   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-6.png" width="800px" title="문장 간 유사도 측정" alt="05-6"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-6.png" width="900px" title="문장 간 유사도 측정" alt="05-6"></img><br/>   
 
 ## 4. 시스템 엔지니어링 파트
 ### GCP / Cloud Functions   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/06-1.png" width="800px" title="Firebase 작동 방식" alt="06-1"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/06-1.png" width="900px" title="Firebase 작동 방식" alt="06-1"></img><br/>   
 
 ### Git, Github 활용   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/06-2.png" width="800px" title="사용자 정의 단어사전 구축" alt="06-2"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/06-2.png" width="900px" title="사용자 정의 단어사전 구축" alt="06-2"></img><br/>   
 
 ### TroubleShooter로서 문제 해결   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/06-3.png" width="800px" title="사용자 정의 단어사전 추가 기준" alt="06-3"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/06-3.png" width="900px" title="사용자 정의 단어사전 추가 기준" alt="06-3"></img><br/>   
 
 ## 5. TroubleShooting
 ### 프로젝트 TroubleShooting   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/07-1.png" width="800px" title="Trouble 1-3" alt="07-1"></img><br/>   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/07-2.png" width="800px" title="Trouble 4-6" alt="07-2"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/07-1.png" width="900px" title="Trouble 1-3" alt="07-1"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/07-2.png" width="900px" title="Trouble 4-6" alt="07-2"></img><br/>   
 
 
 #### Aiffelthon Daily Log(22.05.03 ~ 22.06.09)
@@ -127,9 +127,3 @@
 |22.05.23~27|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/16.%20daily_log/220523.md)|[🔖](https://modulabs.notion.site/5-4-ca5bda8e196d4439942f54e038a678c3)|
 |22.05.30~06.03|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/16.%20daily_log/220530.md)|[🔖](https://www.notion.so/modulabs/22-06-03-395d4bdf5ccd439a85883d1bd01a60cb)|
 |22.06.07~09|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/16.%20daily_log/220607.md)|[🔖](https://www.notion.so/modulabs/214a1d08ac3146e886e0c90f299d3b5e) [🔖](https://www.notion.so/modulabs/22-06-06-265e966376ee477c8fc3013eaeaf0f90)|
-
-
-#### Aiffelthon Troubleshooting Log
-|일자|Trouble|Solution|링크(Markdown)|
-|:---:|:---:|:---:|:---:|
-|22.05.10|Github Push Misstake(on going)|[😱](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/troubleshooting/220510.md)|[🗂]()|
