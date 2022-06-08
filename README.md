@@ -66,7 +66,7 @@
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-4.png" width="800px" title="모델 선정" alt="04-4"></img><br/>   
 
 ### 파라미터 설정   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-5.png" width="800px" title="파라미터 설정" alt="04-5"></img><br/>   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-5.png" width="900px" title="파라미터 설정" alt="04-5"></img><br/>   
 
 ### word2vec 임베딩 결과 시각화   
 <img src="https://user-images.githubusercontent.com/96903618/172521746-311e97b8-62c6-4cd5-a44e-99db29e5f6b5.gif" style="width:600px"></img><br/>   
