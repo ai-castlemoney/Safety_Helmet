@@ -69,7 +69,7 @@
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-5.png" width="800px" title="파라미터 설정" alt="04-5"></img><br/>   
 
 ### word2vec 임베딩 결과 시각화   
-<img width="80%" src="![word_vector](https://user-images.githubusercontent.com/96903618/172510808-e7626960-d9a3-4a9f-bdc4-4387af686017.gif)"/></img><br/>   
+<img src="![word_vector](https://user-images.githubusercontent.com/96903618/172510808-e7626960-d9a3-4a9f-bdc4-4387af686017.gif)"/></img><br/>   
 
 ### 문장 간 유사도 측정   
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-6.png" width="800px" title="문장 간 유사도 측정" alt="04-6"></img><br/>   
