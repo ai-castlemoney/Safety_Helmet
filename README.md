@@ -34,10 +34,10 @@ ___
 H2{color:skyblue !important;}
 H3{color:DarkOrange !important;}
 p{color:black !important;}
-</style>
+
 
 ## 프로젝트 진행사항   
-<span style="color:skyblue">## Process</span>   
+## Process   
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/Safety_Helmet.png" width="900px" title="Process" alt="Safety_Helmet"></img><br/>   
 
 ## 1. 데이터 파트   
@@ -153,3 +153,5 @@ p{color:black !important;}
 |22.05.23~27|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/16.%20daily_log/220523.md)|[🔖](https://modulabs.notion.site/5-4-ca5bda8e196d4439942f54e038a678c3)|
 |22.05.30~06.03|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/16.%20daily_log/220530.md)|[🔖](https://www.notion.so/modulabs/22-06-03-395d4bdf5ccd439a85883d1bd01a60cb)|
 |22.06.07~09|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/16.%20daily_log/220607.md)|[🔖](https://www.notion.so/modulabs/214a1d08ac3146e886e0c90f299d3b5e) [🔖](https://www.notion.so/modulabs/22-06-06-265e966376ee477c8fc3013eaeaf0f90)|
+
+</style>
