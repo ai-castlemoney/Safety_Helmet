@@ -28,13 +28,14 @@
 - 작업허가서(작업 및 작업장의 특징 등) 입력시 키워드와 관련있는 규제 요약 및 사고사례를 추천함으로써
 - 작업과 작업장 중심의 산업안전지침 규정와 사고사례 정보를 쉽게 제공받을 수 있다.
 - 특정 도메인의 데이터 셋, 사용자 정의 단어장을 작성하는 것만으로도 의의가 있다.
+___
 
 ## 프로젝트 진행사항   
-### Process   
+## Process   
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/Safety_Helmet.png" width="900px" title="Process" alt="Safety_Helmet"></img><br/>   
 
 ## 1. 데이터 파트   
-### 데이터 수집 [안전지침 및 사고사례]   
+### <span style="color:red">데이터 수집</span> [안전지침 및 사고사례]   
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/03-1.png" width="900px" title="데이터 수집 [안전지침 및 사고사례]" alt="03-1"></img><br/>   
 
 ### 데이터 정제 [안전 지침(KOSHA Guide)]   
@@ -74,24 +75,21 @@
 ### 문장 간 유사도 측정   
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-6.png" width="900px" title="문장 간 유사도 측정" alt="04-6"></img><br/>   
 
+### 모델의 문제점 01   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-7.png" width="900px" title="모델의 문제점 01" alt="04-7"></img><br/>   
+
+### 모델의 문제점 02   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-8.png" width="900px" title="모델의 문제점 02" alt="04-8"></img><br/>   
+
+### 모델 문제 해결 방안   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/04-9.png" width="900px" title="모델 문제 해결 방안" alt="04-9"></img><br/>   
+
 ## 3. 웹 개발 파트
-### Firebase 작동 방식   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-1.png" width="900px" title="Firebase 작동 방식" alt="05-1"></img><br/>   
+### 화면정의서 작성   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-1.png" width="900px" title="화면정의서 작성" alt="05-1"></img><br/>   
 
-### ing   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-2.png" width="900px" title="" alt="05-2"></img><br/>   
-
-### ing   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-3.png" width="900px" title="" alt="05-3"></img><br/>   
-
-### ing   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-4.png" width="900px" title="" alt="05-4"></img><br/>   
-
-### ing   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-5.png" width="900px" title="" alt="05-5"></img><br/>   
-
-### ing   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-6.png" width="900px" title="" alt="05-6"></img><br/>   
+### 웹 개발 진행   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/05-2.png" width="900px" title="웹 개발 진행" alt="05-2"></img><br/>   
 
 ## 4. 시스템 엔지니어링 파트
 ### GCP / Cloud Functions   
@@ -100,16 +98,38 @@
 ### Git, Github 활용   
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/06-2.png" width="900px" title="Git, Github 활용" alt="06-2"></img><br/>   
 
-### TroubleShooter로서 문제 해결   
-<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/06-3.png" width="900px" title="TroubleShooter로서 문제 해결" alt="06-3"></img><br/>   
+### 문제 해결   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/06-3.png" width="900px" title="문제 해결" alt="06-3"></img><br/>   
 
-## 5. TroubleShooting
-### 프로젝트 TroubleShooting   
+## 5. 마무리
+### 프로젝트 의의 & 발전 계획   
+<img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/08-1.png" width="900px" title="프로젝트 의의 & 발전 계획" alt="08-1"></img><br/>   
+
+## 부록-1
+### Troubleshooting Case  
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/07-1.png" width="900px" title="TroubleShooting 1-3" alt="07-1"></img><br/>   
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/07-2.png" width="900px" title="TroubleShooting 4-6" alt="07-2"></img><br/>   
 
+## 부록-2
+### Reference   
+- [KOSHA Guide 건설안전지침](https://www.kosha.or.kr/kosha/data/guidanceC.do)
+- [KOSHA Guide 재해사례(건설업)](https://www.kosha.or.kr/kosha/data/construction.do)
+- [CSI 건설사고사례](https://www.csi.go.kr/acd/acdCaseList.do)
+- [웹 스크래핑](https://youtu.be/yQ20jZwDjTE)
+- [한국어 형태소 분석기(POS) 분석](https://velog.io/@metterian)
+- [Word2Vec](https://wikidocs.net/22660)
+- [Firebase documentation](https://firebase.google.com/docs/firestore/)
+- [Vuetify](https://vuetifyjs.com/en/)
+- [Git](https://abled.tistory.com/category/git)
+- [Google Cloud Functions 및 Firebase](https://cloud.google.com/functions/docs/concepts/functions-and-firebase?hl=ko)
+- [Google Cloud 함수 작성](https://cloud.google.com/functions/docs/writing?hl=ko#functions-writing-file-structuring-python)
+- [윈도우 환경 mecab 사용자 사전 추가](https://joyhong.tistory.com/128)
+- [Microsoft Docs(about_Execution_Policies)](https://docs.microsoft.com/ko-kr/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2)
+- [Best way to remove "\xad" in Python?](https://stackoverflow.com/questions/51976328/best-way-to-remove-xad-in-python)
+- [Soft Hyphen](https://namu.wiki/w/Soft%20Hyphen)
 
-#### Aiffelthon Daily Log(22.05.03 ~ 22.06.09)
+
+## Aiffelthon Daily Log(22.05.03 ~ 22.06.09)
 |일자|내용|링크1(Markdown)|링크2(Notion)|
 |:---:|:---:|:---:|:---:|
 |22.05.03|작업 및 논의 사항들|[📝](https://github.com/ai-castlemoney/Safety_Helmet/blob/master/16.%20daily_log/220503.md)||
