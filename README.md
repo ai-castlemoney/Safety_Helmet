@@ -37,7 +37,7 @@ p{color:black !important;}
 </style>
 
 ## 프로젝트 진행사항   
-## Process   
+<span style="color:skyblue">## Process</span>   
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/Safety_Helmet.png" width="900px" title="Process" alt="Safety_Helmet"></img><br/>   
 
 ## 1. 데이터 파트   
