@@ -30,10 +30,6 @@
 - 특정 도메인의 데이터 셋, 사용자 정의 단어장을 작성하는 것만으로도 의의가 있다.
 ___
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
-
 ## 프로젝트 진행사항   
 ## Process   
 <img src="https://github.com/ai-castlemoney/Safety_Helmet/blob/master/17.%20images/Safety_Helmet.png" width="900px" title="Process" alt="Safety_Helmet"></img><br/>   
